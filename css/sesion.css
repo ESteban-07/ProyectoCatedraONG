@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+/* Imagen de fondo */
+body, html {
+    background-image: url(https://i.ibb.co/VND92kg/flat-lay-toys-with-food-bowl-fur-brush-dogs.jpg);
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 /*Contenedor del formulario y de los textos*/
 .contenedor {
     /*Margenes*/
@@ -76,17 +86,6 @@ li {
 
 button[type="submit"]:active {
     transform: scale(0.95);
-}
-
-/*Imagen de fondo*/
-.fondo {
-    /*Posicion*/
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: -1;
 }
 
 /*Campos de usuaro y contraseña (Diseño)*/
