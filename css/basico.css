@@ -143,7 +143,7 @@ td{
 }
 .titulo__piePagina{
   display: flex;
-  height: 650px;
+  height: 550px;
   width: 100%;
   align-items: flex-end;
   justify-content: center;
