@@ -7,23 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contactanos.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/menu.css">
     <title>Contactanos</title>
 </head>
 
 <body>
     <!--Barra de navegacion-->
-    <header>
-        <nav>
-            <img src="https://i.ibb.co/yyHS9FJ/Santuario.png" class="contenido_header nav__items__foto" alt="Santuario">
-            <a href="#" class="contenido_header nav__itemsderecha">TODOS MERECEN UN HOGAR</a>
-            <a href="#" class="contenido_header">¿Quiénes somos?</a>
-            <a href="#" class="contenido_header">Adopción</a>
-            <a href="#" class="contenido_header">Mascotas</a>
-            <a href="#" class="contenido_header">Refugios</a>
-            <a href="#" class="contenido_header">Contacto</a>
-            <a href="#" class="contenido_header nav__items">Iniciar Sesión</a>
+        <nav class="nav">
+            <input type="checkbox" name="" id="nav__checkbox" class="nav__checkbox">
+            <label for="nav__checkbox" class="nav__toggle">
+                <img class="menu" src="https://i.ibb.co/ZKHqmHS/icons8-men-48.png" alt="">
+                <img class="close" src="https://i.ibb.co/ysPF1Q0/icons8-x-50.png" alt="">
+            </label>
+            <ul class="nav__menu">
+                <li class="menu__logo"><img src="https://i.ibb.co/YhzjGPx/Santuario-transparente.png" alt=""></li>
+                <li><a href="#">¿Quiénes somos?</a></li>
+                <li><a href="#">Adopción</a></li>
+                <li><a href="#">Mascotas</a></li>
+                <li><a href="#">Refugios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><button class="inicio__sesion">Iniciar Sesion</button></li>
+            </ul>
         </nav>
-    </header>
     <section>
         <!--Imagen-->
         <img class="img-form" src="https://i.ibb.co/34W5N7V/jumpy-dog-21bdbbccdd9b13b2040a192f8f4c485f-1.png">
