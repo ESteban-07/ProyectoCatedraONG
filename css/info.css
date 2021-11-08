@@ -4,3 +4,70 @@
     padding: 0;
 }
 
+.titulo {
+    text-align: center;
+    padding: 0 auto;
+}
+
+figure {
+    position: absolute;
+    background-color: lawngreen;
+    width: 100%;
+    height: 400px;
+}
+
+.tarjeta {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: 90%;
+    padding-top: 3%;
+    padding-left: 8%;
+}
+
+.info {
+    position: absolute;
+    background-color: lightcoral;
+    width: 100%;
+    height: 100%;
+    margin-left: 35%;
+    padding-top: 6rem;
+}
+
+li {
+    list-style: none;
+}
+
+.descripcion_div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion {
+    position: absolute;
+    text-align: justify;
+    width: 90%;
+    padding-left: 60%;
+    padding-top: 7%;
+}
+
+.contacto {
+    position: absolute;
+    margin-top: 25rem;
+    width: 100%;
+    height: 50%;
+    background-color: lightseagreen;
+}
+
+.contacto__responsable {
+    position: absolute;
+    padding: 2rem;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 6vh;
+    background-color: limegreen;
+}
