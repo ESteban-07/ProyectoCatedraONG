@@ -112,8 +112,58 @@ li {
     color: white;
 }
 
-footer {
-    background-image: url("https://i.ibb.co/chCMP3Y/footter.png");
+.contenedor_piePagina{
     width: 100%;
-    height: 100%;
-}
+    height: 100vh;
+    background-image: url('../img/footter.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; /*lo hace movil*/
+  }
+  .titulo__piePagina{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .subtitulo__piePagina{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+  }
+  
+  .piePagina__cta{
+    margin-right: 30px;
+  }
+  
+  .piePagina{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+    color: #fff;
+  }
+  
+  .piePagina__cta{
+    font-family: 'Edo SZ', normal;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
