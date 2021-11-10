@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -70,4 +72,42 @@ li {
     text-align: center;
     line-height: 6vh;
     background-color: limegreen;
+}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+.contacto__mensaje {
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 4rem;
+    margin-left: 42rem;
+    text-align: center;
+    line-height: 6vh;
+}
+
+.contacto__mensaje p {
+    line-height: 3vh;
+}
+
+.mensaje{
+    width: 50%;
+    height: 30%;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.enviar{
+    width: 20%;
+    height: 15%;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #A13842;
+    color: white;
 }
