@@ -1,0 +1,156 @@
+/*tipografia roboto mono*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+/*tipografia roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*Fuente Edo SZ*/
+@font-face {
+    font-family: 'Edo SZ';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Edo SZ'), url('../fonts/edosz.woff') format('woff');
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*font-family: 'Roboto Mono', monospace; /*Roboto Mono*/
+    /*font-family: 'Roboto', sans-serif; /*Roboto*/
+    /*font-family: 'Edo SZ', normal; /*Edo SZ*/
+    background-color: #fff;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+header{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__items__foto{
+    width: 8%;
+}
+
+.contenido_header{
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav__itemsderecha{
+    margin-right: 400px;
+}
+
+.nav__items{
+    border: 1px solid #ffc431;
+    background: #ffc431;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+.contenedor {
+    background-color: #E8D5AB;
+    text-align: center;
+}
+
+.contenedor .titulo {
+    font-family: 'Edo SZ', normal;
+    font-weight: 400;
+    font-size: 26px;
+    padding: 12px 0;
+}
+
+.contenedor img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.informacion {
+    background-color: #FEFEFE;
+    padding: 50px;
+    text-align: justify;
+}
+
+.informacion p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.informacion h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.contenedor_piePagina{
+    width: 100%;
+    height: auto;
+    background-image: url("https://i.ibb.co/0c5z7MN/footter.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.titulo__piePagina{
+    display: flex;
+    height: 650px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.subtitulo__piePagina{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+}
+
+.piePagina__cta{
+    font-family: 'Edo SZ', normal;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 30px;
+}
+
+.piePagina{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+    color: #fff;
+}
