@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contactanos.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <title>Contactanos</title>
+</head>
+
+<body>
+    <!--Barra de navegacion-->
+        <nav class="nav">
+            <input type="checkbox" name="" id="nav__checkbox" class="nav__checkbox">
+            <label for="nav__checkbox" class="nav__toggle">
+                <img class="menu" src="https://i.ibb.co/ZKHqmHS/icons8-men-48.png" alt="">
+                <img class="close" src="https://i.ibb.co/ysPF1Q0/icons8-x-50.png" alt="">
+            </label>
+            <ul class="nav__menu">
+                <li class="menu__logo"><img src="https://i.ibb.co/YhzjGPx/Santuario-transparente.png" alt=""></li>
+                <li><a href="#">¿Quiénes somos?</a></li>
+                <li><a href="#">Adopción</a></li>
+                <li><a href="#">Mascotas</a></li>
+                <li><a href="#">Refugios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><button class="inicio__sesion">Iniciar Sesion</button></li>
+            </ul>
+        </nav>
+    <section>
+        <!--Imagen-->
+        <img class="img-form" src="https://i.ibb.co/34W5N7V/jumpy-dog-21bdbbccdd9b13b2040a192f8f4c485f-1.png">
+        <!--Formulario-->
+        <form class="form-contacto">
+            <h2 class="encabezado">Dejanos tu mensaje y nosotros te daremos respuesta lo más pronto posible</h2>
+            <h3 class="descripcion">Completa el formulario con tus datos y comentarios que quieres compartirnos, estamos para escucharte</h3>
+            <label for="Nombre">
+                <p>Nombre:</p>
+                <input type="text" id="nombre" name="nombre" class="campo" placeholder="Ingrese aqui su nombre" required>
+            </label>
+            <label for="Correo">
+                <p>Correo electronico:</p>
+                <input type="email" id="correo" name="correo" class="campo" placeholder="Ingrese aqui su correo electronico" required>
+            </label>
+            <label for="mensaje">
+                <p>Mensaje:</p>
+                <textarea id="mensaje" name="mensaje" class="campo" placeholder="Escriba aqui sus opiniones y/o consultas"  required></textarea>
+            </label>
+            <div>
+                <button type="submit" class="boton">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <!--Pie de pagina-->
+    <footer class="contenedor_piePagina">
+        <section class="titulo__piePagina">
+            <h1>SANTUARIO</h1>
+        </section>
+        <section class="subtitulo__piePagina">
+            <a href="#" class="piePagina__cta">GUÍAS DE CUIDADO</a>
+            <a href="#" class="piePagina__cta">CONTACTO</a>
+            <a href="#" class="piePagina__cta">TERMINOS Y CONDICIONES</a>
+        </section>
+        <section class="piePagina">
+            <p>&copy; TODOS LOS DERECHOS RESERVADOS 2021</P>
+        </section>
+    </footer>
+</body>
+
+</html>
