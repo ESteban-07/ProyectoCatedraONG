@@ -1,0 +1,391 @@
+/*Declaración de funetes*/
+@font-face {
+    font-family: 'Edo SZ';
+    src: url('../fuentes/edosz.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*Imagen de fondo*/
+body, html {
+    background-image: url(https://i.ibb.co/vYmB8VC/front-view-of-beautiful-dog-with-copy-space-3.jpg);
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Para pnatallas con un mínimo de 1200 pixeles*/
+@media (min-width: 1200px) {
+
+/*Titulo de bienvenida*/    
+h1 {
+    font-family: 'Edo SZ';
+    font-size: 4vw;
+    text-align: left;
+}
+
+/*Contenedor del formulario*/
+.formulario {
+    padding-left: 8em;
+    padding-top: -1em;
+}
+
+/*Descripción*/
+.parrafo1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+
+    /*Margenes*/
+    padding-bottom: 1rem;
+    margin-top: -0.5rem;
+}
+
+/*Boton de envío*/
+.boton_enviar {
+    /*Estilo*/
+
+    background-color: #A13842;
+    color: white;
+    transition: all 0.5s;
+
+    /*Borde del boton*/
+    border-radius: 5px;
+    border: none;
+    border-bottom: 0.3rem solid transparent;
+    
+    /*Margenes*/
+    margin-bottom: 3em;
+    margin-top: -1em; 
+    padding: 10px 24px;
+    padding-top: 0.8rem;
+
+}
+
+/*Campos*/
+.form_input {
+  /*Estilo*/
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 0.8rem; 
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  display: block;
+  transition: all 0.3s;
+
+  /*Margenes*/
+  padding: 0.2rem 0.5rem;
+  padding-top: 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+  border-bottom: 0.3rem solid transparent;
+  
+}
+
+}
+
+/*Para pantallas con un máximo de 1024px*/
+@media (max-width: 1024px) {
+    /*Titulo de bienvenida*/
+    h1 {
+        font-family: 'Edo SZ';
+        font-size: 4vw;
+        text-align: left;
+    }
+    
+    /*Contenedor del formulario*/
+    .formulario {
+        padding-left: 8em;
+        padding-top: 8em;
+    }
+    
+    /*Descripción*/
+    .parrafo1 {
+        /*Estilo*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6vw;
+        text-align: left;
+
+        /*Margenes*/
+        padding-bottom: 1rem;
+        margin-top: -0.5rem;
+    }
+    
+    /*Titulo de los campos*/
+    .texto {
+        font-size: 1.6vw;
+    }
+    
+    /*Botón de envío*/
+    .boton_enviar {
+
+        /*Estilo*/
+        border-radius: 5px;
+        background-color: #A13842;
+        color: white;
+        font-size: 1.4vw;
+        transition: all 0.5s;
+
+        /*Margenes*/
+        padding: 10px 24px;
+        padding-top: 1rem;
+        margin-bottom: 3em;
+        margin-top: 1em;
+
+        /*Bordes*/
+        border: none;
+        border-bottom: 0.3rem solid transparent;
+    }
+    
+    /*Campos*/
+    .form_input {
+
+      /*Estilo*/
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      font-size: 1rem;
+      background-color: rgb(255, 255, 255);
+      width: 30%;
+      display: block; 
+      transition: all 0.3s;
+
+      /*Margenes*/
+      padding: 0.4rem 0.8rem;
+      padding-top: 0.8rem;
+
+      /*Borde*/
+      border-radius: 0.2rem;
+      border: none;
+      border-bottom: 0.3rem solid transparent;
+      
+    }
+}
+
+/*Para pnatallas con un máximo de 992 pixeles*/
+@media (max-width: 992px) and (orientation: landscape) {
+    /*Titulo de bienvenida*/
+    h1 {
+        font-family: 'Edo SZ';
+        font-size: 4vw;
+        text-align: left;
+    }
+    
+    /*Contenedor del formulario*/
+    .formulario {
+        padding-left: 6em;
+        padding-top: 2em;
+    }
+
+    /*Titulos de los campos*/
+    .texto {
+        font-size: 1.4vw;
+    }
+    
+    /*Descripción*/
+    .parrafo1 {
+        font-size: 1.5vw;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        padding-bottom: 0.5rem;
+        margin-top: -0.5rem;
+    }
+    
+    /*Botón de envíar*/
+    .boton_enviar {
+
+        /*Estilo*/
+        font-size: 1.2vw;
+        background-color: #A13842;
+        color: white;
+        transition: all 0.5s;
+
+        /*Margenes*/
+        padding: 4px 10px;
+        padding-top: 0.4rem;
+        margin-bottom: 2em;
+        margin-top: -1em;
+        
+        /*Borde*/
+        border-radius: 5px;
+        border: none;
+        border-bottom: 0.3rem solid transparent;
+    }
+    
+    /*Campos*/
+    .form_input {
+
+      /*Estilo*/
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      font-size: 0.6rem; 
+      width: 30%;
+      display: block;
+      transition: all 0.3s;
+
+      /*Margenes*/
+      padding: 0.2rem 0.5rem;
+      padding-top: 0.5rem;
+
+      /*Bordes*/
+      border-radius: 0.2rem;
+      background-color: rgb(255, 255, 255);
+      border: none;
+      border-bottom: 0.3rem solid transparent;
+      
+    }
+}
+
+/*Para pantallas con un máximo de 768 pixeles*/
+@media (max-width: 768px) {
+    /*Titulo de bienvenida*/
+    h1 {
+        font-family: 'Edo SZ';
+        font-size: 8vw;
+        text-align: left;
+    }
+    
+    /*Contenedor del formulario*/
+    .formulario {
+        padding-left: 10em;
+        padding-top: 10em;
+    }
+
+    /*Titulos de los campos*/
+    .texto {
+        font-size: 2.5vw;
+        border-bottom: 1em;
+    }
+    
+    /*Descripción*/
+    .parrafo1 {
+        /*Estilo*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5vw;
+        text-align: left;
+
+        /*Margenes*/
+        padding-bottom: 0.5rem;
+        margin-top: -0.5rem;
+    }
+    
+    /*Boton de envía*/
+    .boton_enviar {
+        /*Estilo*/
+        font-size: 1.7vw;
+        background-color: #A13842;
+        color: white;
+        transition: all 0.5s;
+
+        /*Margenes*/
+        padding: 14px 40px;
+        padding-top: 1.2rem;
+        margin-bottom: 2em;
+        margin-top: 1em;
+        
+        /*Borde*/
+        border-radius: 5px;
+        border: none;
+        border-bottom: 0.3rem solid transparent;
+    }
+    
+    /*Campos*/
+    .form_input {
+      /*Estilo*/
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      font-size: 1.7vw; 
+      background-color: rgb(255, 255, 255);
+      display: block;
+      transition: all 0.3s;
+      width: 30%;
+
+      /*Margenes*/
+      padding: 0.5rem 0.10rem;
+      padding-top: 0.8rem;
+      padding-left: 1em;
+
+      /*Borde*/
+      border-radius: 0.2rem;
+      border: none;
+      border-bottom: 0.3rem solid transparent;
+    }
+}
+
+/* Para pantallas con un máximo de 600 pixeles*/
+@media (max-width: 600px) {
+    /*Titulo de bienvenida*/
+    h1 {
+        font-family: 'Edo SZ';
+        font-size: 8vw;
+        text-align: left;
+    }
+    
+    /*Contenedor del formulario*/
+    .formulario {
+        padding-left: 5em;
+        padding-top: 7em;
+    }
+
+    /*Titulo de los campos*/
+    .texto {
+        font-size: 2.8vw;
+        border-bottom: 1em;
+    }
+    
+    /*Descripción*/
+    .parrafo1 {
+        /*Estilos*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.8vw;
+        text-align: left;
+
+        /*Margenes*/
+        padding-bottom: 0.5rem;
+        margin-top: -0.5rem;
+    }
+    
+    /*Boton de envío*/
+    .boton_enviar {
+        /*Estilos*/
+        font-size: 2.5vw;
+        color: white;
+        transition: all 0.5s;
+        background-color: #A13842;
+
+        /*Margenes*/
+        padding: 0.5em 3em;
+        padding-top: 0.6rem;
+        margin-bottom: 2em;
+        margin-top: -1em;
+
+        /*Borde*/
+        border-radius: 5px;
+        border: none;
+        border-bottom: 0.3rem solid transparent;
+        
+    }
+    /*Campo*/
+    .form_input {
+      /*Estilo*/
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      font-size: 1.8vw; 
+      background-color: rgb(255, 255, 255);
+      width: 30%;
+      display: block;
+      transition: all 0.3s;
+
+      /*Margenes*/
+      padding: 0.4rem 2rem;
+      padding-top: 0.7rem;
+      padding-left: 2em;
+
+      /*Borde*/
+      border-radius: 0.2rem;
+      border: none;
+      border-bottom: 0.3rem solid transparent;
+      
+    }
+}
+
