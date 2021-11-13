@@ -1,0 +1,362 @@
+/*tipografia roboto mono*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+/*tipografia roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*Fuente Edo SZ*/
+@font-face {
+    font-family: 'Edo SZ';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Edo SZ'), url('../fonts/edosz.woff') format('woff');
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ocultar_ref2{
+    display: none;
+}
+
+#ocultar_ref3{
+    display: none;
+}
+
+#ocultar_ref4{
+    display: none;
+}
+
+#ocultar_ref5{
+    display: none;
+}
+
+header{
+    width: 100%;
+}
+
+body{
+    /*font-family: 'Roboto Mono', monospace; /*Roboto Mono*/
+    /*font-family: 'Roboto', sans-serif; /*Roboto*/
+    /*font-family: 'Edo SZ', normal; /*Edo SZ*/
+    background-color: #fff;
+}
+
+.ubicaciones_heroes{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.contenedor_piePagina{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/footter.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; /*lo hace movil*/
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor_aliado{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.nav__items__foto{
+    width: 8%;
+    cursor: pointer;
+}
+
+.contenido_header{
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenido_aliado{
+    margin-top: 25px;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 18%;
+}
+
+.nav__itemsderecha{
+    margin-right: 400px;
+}
+
+.nav__items{
+    border: 1px solid #ffc431;
+    background: #ffc431;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.texto_heroe{
+    display: flex;
+    height: 180px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Edo SZ', normal;
+}
+
+.texto_heroe h1{
+    font-size: 40px;
+    color: #000;
+}
+
+.titulo__piePagina{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.subtitulo__piePagina{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+}
+
+.piePagina__cta{
+    margin-right: 30px;
+}
+
+.piePagina{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+    color: #fff;
+}
+
+.piePagina__cta{
+    font-family: 'Edo SZ', normal;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+main .subtitulo__heroe{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.portafolio{
+    margin-bottom: 0px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.presentacion__foto{
+    width: 24%;
+    margin-bottom: 10px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.presentacion__foto > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.portafolio p{
+    padding-top: 5px;
+}
+
+
+/*responsive*/
+@media screen and (max-width:1312px){
+    .nav__itemsderecha{
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width:1169px){
+    .nav__itemsderecha{
+        margin-right: 150px;
+    }
+    
+    .contenido_header{
+        font-size: 14px;
+    }
+
+    .contenido_aliado{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:950px){
+    .contenido_header{
+        font-size: 12px;
+    }
+
+    .contenedor_piePagina{
+        background-position: center;
+    }
+
+    .presentacion__foto{
+        width: 48%;
+    }
+
+    .presentacion__aliado{
+        width: 90%;
+        height: 200px;
+    }
+
+    .contenedor_aliado{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenido_aliado{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:850px){
+
+    .nav__itemsderecha{
+        margin-right: 50px;
+    }
+    
+    .contenedor_aliado{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contenido_aliado{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:750px){
+
+    .nav__itemsderecha{
+        margin-right: 0;
+    }
+
+    .contenido_header{
+        font-size: 11px;
+        margin-right: 5px;
+    }
+
+    .nav__items{
+        padding: 8px 13px;
+    }
+
+    .texto_heroe h1{
+        font-size: 35px;
+    }
+
+    .heroe__cta{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:650px){
+
+    .contenido_header{
+        font-size: 10px;
+    }
+
+    .nav__items{
+        padding: 7px 12px;
+    }
+
+    .presentacion__foto{
+        width: 70%;
+    }
+
+    .presentacion__aliado{
+        width: 70%;
+        height: 150px;
+    }
+
+    .contenido_aliado{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:560px){
+
+    .nav__itemsderecha{
+        font-size: 3px;
+        visibility: hidden;
+    }
+
+    .nav__items__foto{
+        margin-right: 0;
+    }
+
+    .presentacion__foto{
+        width: 99%;
+    }
+
+    .presentacion__aliado{
+        width: 99%;
+        height: 150px;
+    }
+}
