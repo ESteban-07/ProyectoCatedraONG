@@ -1,0 +1,235 @@
+/*tipografia roboto mono*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+/*tipografia roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*Fuente Edo SZ*/
+@font-face {
+    font-family: 'Edo SZ';
+    src: url('../fuentes/edosz.ttf');
+    }
+
+:root{
+    --background: linear-gradient(135deg, hsla(229, 76%, 66%, 0.185) 0%, hsla(270, 37%, 46%, 0) 100%);
+    --boton-padding:20px 40px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace; /*Roboto Mono*/
+    font-family: 'Roboto', sans-serif; /*Roboto*/
+    *font-family: 'Edo SZ', normal; /*Edo SZ*/
+    background-color: #fff;
+}
+body{
+  font-family: 'EDO SZ';
+  font-size: 1em;
+}
+.nav{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.nav__items{
+    color: #000;
+    text-decoration: none;
+    margin-right: 0px;
+    padding: 10px 15px;
+    font-weight: inherit;
+}
+
+.nav__items__foto{
+    width: 12%;
+}
+
+.nav__items__iz{
+    margin-right: 195px;
+}
+
+.nav__items-cta{
+    border: 1px solid #ffc431;
+    background: #ffc431;
+    color: #fff;
+    border-radius: 5px;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+  font-family: 'Roboto';
+  padding: 2%;
+  margin:2%;
+}
+.Formulario{
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  font-family: Roboto;
+  line-height: 1.5em;
+}
+.columna1{
+  float: left;
+  width: 45%;
+}
+.columna2{
+  float: right;
+  width: 45%;
+}
+.boton{
+margin-top: 3%;
+
+}
+button{
+  background-color: #a13842;
+  color: #fff;
+  width: 15%;
+  height: 1cm;
+  border: 0;
+  border-radius: 0.5em;
+}
+.fondo{
+    font-family: 'Edo SZ';
+    color: #ffffff;
+    margin-top: 0;
+  }
+  .contenedor_piePagina{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/footter.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; /*lo hace movil*/
+  }
+  .titulo__piePagina{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .subtitulo__piePagina{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+  }
+  
+  .piePagina__cta{
+    margin-right: 30px;
+  }
+  
+  .piePagina{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Edo SZ', normal;
+    color: #fff;
+  }
+  
+  .piePagina__cta{
+    font-family: 'Edo SZ', normal;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  /*responsive*/
+  @media screen and (max-width:1312px){
+    .nav__itemsderecha{
+        margin-right: 200px;
+    }
+  }
+  
+  @media screen and (max-width:1169px){
+    .nav__itemsderecha{
+        margin-right: 150px;
+    }
+    
+    .contenido_header{
+        font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width:950px){
+    .contenido_header{
+        font-size: 12px;
+    }
+    .contenedor_piePagina{
+        background-position: center;
+    }
+   
+  }
+  
+  @media screen and (max-width:850px){
+  
+    .nav__itemsderecha{
+        margin-right: 50px;
+    }
+  }
+  
+  @media screen and (max-width:750px){
+  
+    .nav__itemsderecha{
+        margin-right: 0;
+    }
+  
+    .contenido_header{
+        font-size: 11px;
+        margin-right: 5px;
+    }
+  
+    .nav__items{
+        padding: 8px 13px;
+    }
+  
+  }
+  
+  @media screen and (max-width:650px){
+  
+    .contenido_header{
+        font-size: 10px;
+    }
+  
+    .nav__items{
+        padding: 7px 12px;
+    }
+  }
+  
+  @media screen and (max-width:560px){
+  
+    .nav__itemsderecha{
+        font-size: 3px;
+        visibility: hidden;
+    }
+  
+    .nav__items__foto{
+        margin-right: 0;
+    }
+  
+    
+  }
