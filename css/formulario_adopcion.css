@@ -1,0 +1,244 @@
+/*tipografia roboto mono*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+
+/*tipografia roboto*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+/*Fuente Edo SZ*/
+@font-face {
+    font-family: "Edo SZ";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Edo SZ"), url("../fonts/edosz.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: 'Roboto Mono', monospace; /*Roboto Mono*/
+    /*font-family: 'Roboto', sans-serif; /*Roboto*/
+    /*font-family: 'Edo SZ', normal; /*Edo SZ*/
+    background-color: #fff;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__items__foto {
+    width: 8%;
+}
+
+.contenido_header {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav__itemsderecha {
+    margin-right: 400px;
+}
+
+.nav__items {
+    border: 1px solid #ffc431;
+    background: #ffc431;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* FORMULARIO DE ADOPCIÓN */
+
+.titulo {
+    text-align: center;
+    font-family: "Edo SZ", normal;
+    font-weight: 400;
+    font-size: 26px;
+    padding: 12px 0;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: "Edo SZ", normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 12px 0;
+}
+
+.formulario {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-family: Roboto;
+    line-height: 1.5em;
+}
+.columna1 {
+    float: left;
+    width: 45%;
+}
+.columna2 {
+    float: right;
+    width: 45%;
+}
+
+.boton {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boton p {
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 50px;
+}
+
+button {
+    font-family: "Edo SZ", normal;
+    font-weight: 400;
+    font-size: 22px;
+    background-color: #a13842;
+    color: #fff;
+    width: 15%;
+    height: 1cm;
+    border: 0;
+    border-radius: 0.5em;
+}
+
+/* FOOTER */
+
+.contenedor_piePagina {
+    width: 100%;
+    height: auto;
+    background-image: url("https://i.ibb.co/0c5z7MN/footter.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.titulo__piePagina {
+    display: flex;
+    height: 650px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Edo SZ", normal;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.subtitulo__piePagina {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Edo SZ", normal;
+}
+
+.piePagina__cta {
+    font-family: "Edo SZ", normal;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 30px;
+}
+
+.piePagina {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Edo SZ", normal;
+    color: #fff;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1312px) {
+    .nav__itemsderecha {
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .nav__itemsderecha {
+        margin-right: 150px;
+    }
+
+    .contenido_header {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .contenido_header {
+        font-size: 12px;
+    }
+    .contenedor_piePagina {
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .nav__itemsderecha {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nav__itemsderecha {
+        margin-right: 0;
+    }
+
+    .contenido_header {
+        font-size: 11px;
+        margin-right: 5px;
+    }
+
+    .nav__items {
+        padding: 8px 13px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contenido_header {
+        font-size: 10px;
+    }
+
+    .nav__items {
+        padding: 7px 12px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .nav__itemsderecha {
+        font-size: 3px;
+        visibility: hidden;
+    }
+
+    .nav__items__foto {
+        margin-right: 0;
+    }
+}

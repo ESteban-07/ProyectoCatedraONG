@@ -1,0 +1,302 @@
+/*tipografia roboto mono*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+
+/*tipografia roboto*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+/*Fuente Edo SZ*/
+@font-face {
+    font-family: "Edo SZ";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Edo SZ"), url("../fonts/edosz.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: 'Roboto Mono', monospace; /*Roboto Mono*/
+    /*font-family: 'Roboto', sans-serif; /*Roboto*/
+    /*font-family: 'Edo SZ', normal; /*Edo SZ*/
+    background-color: #fff;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__items__foto {
+    width: 8%;
+}
+
+.contenido_header {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav__itemsderecha {
+    margin-right: 400px;
+}
+
+.nav__items {
+    border: 1px solid #ffc431;
+    background: #ffc431;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* GALERÍA */
+
+.titulo {
+    text-align: center;
+    font-family: "Edo SZ", normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 12px 0;
+}
+
+.texto {
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 50px auto;
+    max-width: 1100px;
+}
+.wrapper nav {
+    display: flex;
+    justify-content: center;
+}
+.wrapper .items {
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+}
+.items span {
+    padding: 7px 25px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000;
+    background: #ffc431;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.gallery .image {
+    width: calc(100% / 4);
+    padding: 7px;
+}
+.gallery .image span {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.gallery .image img {
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+.gallery .image:hover img {
+    transform: scale(1.1);
+}
+.gallery .image.hide {
+    display: none;
+}
+.gallery .image.show {
+    animation: animate 0.4s ease;
+}
+@keyframes animate {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* FOOTER */
+
+.contenedor_piePagina {
+    width: 100%;
+    height: auto;
+    background-image: url("https://i.ibb.co/0c5z7MN/footter.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.titulo__piePagina {
+    display: flex;
+    height: 650px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Edo SZ", normal;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.subtitulo__piePagina {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Edo SZ", normal;
+}
+
+.piePagina__cta {
+    font-family: "Edo SZ", normal;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 30px;
+}
+
+.piePagina {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Edo SZ", normal;
+    color: #fff;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1312px) {
+    .nav__itemsderecha {
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .nav__itemsderecha {
+        margin-right: 150px;
+    }
+
+    .contenido_header {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .contenido_header {
+        font-size: 12px;
+    }
+    .contenedor_piePagina {
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .nav__itemsderecha {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nav__itemsderecha {
+        margin-right: 0;
+    }
+
+    .contenido_header {
+        font-size: 11px;
+        margin-right: 5px;
+    }
+
+    .nav__items {
+        padding: 8px 13px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contenido_header {
+        font-size: 10px;
+    }
+
+    .nav__items {
+        padding: 7px 12px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .nav__itemsderecha {
+        font-size: 3px;
+        visibility: hidden;
+    }
+
+    .nav__items__foto {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .gallery .image {
+        width: calc(100% / 3);
+    }
+}
+@media (max-width: 800px) {
+    .gallery .image {
+        width: calc(100% / 2);
+    }
+}
+@media (max-width: 700px) {
+    .wrapper nav .items {
+        max-width: 600px;
+    }
+    nav .items span {
+        padding: 7px 15px;
+    }
+}
+@media (max-width: 600px) {
+    .wrapper {
+        margin: 30px auto;
+    }
+    .wrapper nav .items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav .items span {
+        margin: 5px;
+    }
+    .gallery .image {
+        width: 100%;
+    }
+}
