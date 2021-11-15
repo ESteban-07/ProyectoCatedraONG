@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugios</title>
+    <link rel="stylesheet" href="css/Refugios.css">
+</head>
+<body>
+    <script src="js/Refugios.js"></script>
+    <header>
+        <nav>
+            <img src="img/Santuario.png" class="contenido_header nav__items__foto" onclick="location.href = '../Pantalla/index.html'" alt="">
+            <a href="../Pantalla/index.html" class="contenido_header nav__itemsderecha">TODOS MERECEN UN HOGAR</a>
+            <a href="Quienes_somos.html" class="contenido_header">¿Quiénes somos?</a>
+            <a href="Dar_en_adopcion.html" class="contenido_header">Adopción</a>
+            <a href="#" class="contenido_header">Mascotas</a>
+            <a href="../Refugios/Refugios.html" class="contenido_header">Refugios</a>
+            <a href="contactanos.html" class="contenido_header">Contacto</a>
+            <a href="iniciar_sesion.html" class="contenido_header nav__items">Iniciar Sesión</a>
+        </nav>
+        <section class="contenido_heroe">
+            <div class="texto_heroe">
+                <h1>REFUGIOS</h1>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="portafolio">
+            <h1 class="subtitulo__heroe">
+                Aquí un pequeño listado de refugios y veterinarias con las cuales trabajamos:
+            </h1>
+            <div class="galeria">
+                <div class="presentacion__foto">
+                <img src="img/refugio_1.png" onclick="mostrarRef1()" alt="">
+                </div>
+                <div class="presentacion__foto">
+                <img src="img/refugio_2.jpeg" onclick="mostrarRef2()" alt="">
+                </div>
+                <div class="presentacion__foto">
+                <img src="img/refugio_3.png" onclick="mostrarRef3()" alt="">
+                </div>
+                <div class="presentacion__foto">
+                <img src="img/refugio_4.png" onclick="mostrarRef4()" alt="">
+                </div>
+                <div class="presentacion__foto">
+                <img src="img/refugio_5.jpeg" onclick="mostrarRef5()" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="contenedor_sub_hereo">
+            <div class="heroe__textos">
+                <div class="texto_heroe">
+                    <h1>Ubicaciones:</h1>
+                </div>
+                <div class="contenido_sub_heroe">
+                    <iframe id="ocultar_ref1" class="ubicaciones_heroes" visible="false" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.871396965435!2d-89.38305568472613!3d13.726234901582446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63294d09efeb45%3A0xdc37cb4af555714a!2sUrban%20dog!5e0!3m2!1sen!2ssv!4v1636006374416!5m2!1sen!2ssv" 
+                    width="1350" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                    <iframe id="ocultar_ref2" class="ubicaciones_heroes" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d969.0639924507959!2d-89.23841362077464!3d13.702940952331616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633022ce008321%3A0x1e609223b845185b!2s81%20Avenida%20Sur%209-31%2C%20San%20Salvador!5e0!3m2!1sen!2ssv!4v1636007278450!5m2!1sen!2ssv" 
+                    width="1350" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                    <iframe id="ocultar_ref3" class="ubicaciones_heroes" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.240445079932!2d-89.14672783472624!3d13.703882052093117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633713298fef73%3A0x1808963f19104a73!2sReparto%20Las%20Arboledas%2C%20San%20Salvador!5e0!3m2!1sen!2ssv!4v1636007416731!5m2!1sen!2ssv" 
+                    width="1350" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                    <iframe id="ocultar_ref4" class="ubicaciones_heroes" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.0648319501458!2d-89.27182814185251!3d13.831251602011182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63236609d1f33f%3A0x1ae6c5eb57711f60!2s7%C2%B0%20calle%20Pte.%2C%20Quezaltepeque!5e0!3m2!1sen!2ssv!4v1636007507281!5m2!1sen!2ssv" 
+                    width="1350" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                    <iframe id="ocultar_ref5" class="ubicaciones_heroes" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.200918260951!2d-88.16745578472754!3d13.461708957575311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7ad5f678536797%3A0xdd09a2bd68b8a916!2sC.%20metrocentro%2C%20San%20Miguel!5e0!3m2!1sen!2ssv!4v1636007623675!5m2!1sen!2ssv" 
+                    width="1350" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+        </section>
+    </main>
+    <footer class="contenedor_piePagina">
+        <section class="titulo__piePagina">
+            <h1>SANTUARIO</h1>
+        </section>
+        <section class="subtitulo__piePagina">
+            <a href="adopcion.html" class="piePagina__cta">GUÍAS DE CUIDADO</a>
+            <a href="contactanos.html" class="piePagina__cta">CONTACTO</a>
+            <a href="#" class="piePagina__cta">TERMINOS Y CONDICIONES</a>
+        </section>
+        <section class="piePagina">
+            <p>&copy; TODOS LOS DERECHOS RESERVADOS 2021</P>
+        </section>
+    </footer>
+</body>
+</html>
