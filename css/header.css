@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.left img {
+    width: 80px;
+    vertical-align: middle;
+}
+
+nav .anchor-image {
+    padding: 0;
+}
+
+nav a {
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #A13842;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav .loggin {
+    background-color: #FFC431;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+nav .loggin:hover {
+    background-color: #FFC531E0;
+    color: #FFFBFB;
+}
