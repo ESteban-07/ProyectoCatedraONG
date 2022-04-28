@@ -23,7 +23,7 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
+.header__navbar {
     width: 100%;
     position: fixed;
     top: 0;
@@ -42,47 +42,47 @@ nav {
     vertical-align: middle;
 }
 
-nav .anchor-image {
+.header__navbar .anchor-image {
     padding: 0;
 }
 
-nav a {
+.header__navbar a {
     padding: 10px;
     display: inline-block;
     color: black;
     text-decoration: none;
 }
 
-nav a:hover {
+.header__navbar a:hover {
     color: #A13842;
 }
 
-nav ul {
+.header__navbar ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-nav .loggin {
+.header__navbar .loggin {
     background-color: #FFC431;
     border-radius: 5px;
     color: #FFFFFF;
 }
 
-nav .loggin:hover {
+.header__navbar .loggin:hover {
     background-color: #FFC531E0;
     color: #FFFBFB;
 }
 
-nav a.banner {
+.header__navbar a.banner {
     font-weight: 700;
 }
 
-nav #click {
+.header__navbar #click {
     display: none;
 }
 
-nav .menu-btn i {
+.header__navbar .menu-btn i {
     color: #000000;
     font-size: 18px;
     padding: 12px 24px;
@@ -92,7 +92,7 @@ nav .menu-btn i {
 
 /* Media Queries */
 @media (max-width: 975px) {
-    nav .menu-btn i {
+    .header__navbar .menu-btn i {
         position: absolute;
         top: 50%;
         right: 0;
@@ -102,7 +102,7 @@ nav .menu-btn i {
     #click:checked ~ .menu-btn i::before {
         content: "\f00d";
     }
-    nav .right {
+    .header__navbar .right {
         position: fixed;
         top: 95px;
         left: -100%;
@@ -113,32 +113,32 @@ nav .menu-btn i {
     #click:checked ~ .right {
         left: 0%;
     }
-    nav .right li {
+    .header__navbar .right li {
         width: 100%;
     }
 
-    nav .right li a {
+    .header__navbar .right li a {
         width: 100%;
         text-align: center;
     }
 
-    nav .loggin {
+    .header__navbar .loggin {
         border-radius: 0;
     }
     
-    nav .right li .loggin:hover {
+    .header__navbar .right li .loggin:hover {
         background-color: #FFC531E0;
         color: #FFFBFB;
         }
 
-    nav .right a:hover {
+    .header__navbar .right a:hover {
         background-color: #A13842;
         color: #FFFBFB;
     }
 }
 
 @media (max-width: 375px) {
-    nav .left a.banner {
+    .header__navbar .left a.banner {
         display: none;
     }
 }

@@ -62,12 +62,6 @@ body{
     /*background-attachment: fixed; /*lo hace movil*/
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .contenedor_aliado{
     display: flex;
     width: 100%;
