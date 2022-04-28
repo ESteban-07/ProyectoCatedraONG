@@ -27,7 +27,8 @@ body{
 
 /* FOOTER */
 
-.contenedor_piePagina{
+.footer__container{
+    position: relative;
     width: 100%;
     height: 100vh;
     background-image: url('../img/footter.png');
@@ -37,7 +38,44 @@ body{
     background-repeat: no-repeat;
 }
 
-.titulo__piePagina{
+.footer__wrapper {
+    width: 95%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Edo SZ', normal;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.footer__title {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.footer__navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__navbar a {
+    font-size: 15px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer__copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+
+/* .titulo__piePagina{
     display: flex;
     height: 500px;
     width: 100%;
@@ -48,9 +86,9 @@ body{
     color: #fff;
     font-size: 30px;
     margin-bottom: 25px;
-}
+} */
 
-.subtitulo__piePagina{
+/* .subtitulo__piePagina{
     display: flex;
     height: 50px;
     width: 100%;
@@ -74,4 +112,4 @@ body{
     text-align: center;
     font-family: 'Edo SZ', normal;
     color: #fff;
-}
+} */
