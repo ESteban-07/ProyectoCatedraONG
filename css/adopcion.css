@@ -31,12 +31,6 @@ header{
     width: 100%;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .nav__items__foto{
     width: 8%;
 }
@@ -64,6 +58,7 @@ nav{
 /* CONTENIDO PRINCIPAL */
 
 .contenedor {
+    margin-top: 95px;
     background-color: #E8D5AB;
     text-align: center;
 }
@@ -76,6 +71,7 @@ nav{
 }
 
 .contenedor img {
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -83,7 +79,7 @@ nav{
 
 .informacion {
     background-color: #FEFEFE;
-    padding: 50px;
+    padding: 30px;
     text-align: justify;
 }
 

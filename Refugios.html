@@ -7,12 +7,13 @@
     <title>Refugios</title>
     <link rel="stylesheet" href="css/Refugios.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <script src="js/Refugios.js"></script>
     <header>
-        <nav>
+        <nav class="header__navbar">
             <div class="left">
                 <a href="index.html" class="anchor-image"><img src="img/santuario.png"></a>
                 <a href="formulario_adopcion.html" class="banner">TODOS MERECEN UN HOGAR</a>
@@ -81,18 +82,18 @@
         <section class="portafolio">
         </section>
     </main>
-    <footer class="contenedor_piePagina">
-        <section class="titulo__piePagina">
-            <h1>SANTUARIO</h1>
-        </section>
-        <section class="subtitulo__piePagina">
-            <a href="adopcion.html" class="piePagina__cta">GUÍAS DE CUIDADO</a>
-            <a href="contactanos.html" class="piePagina__cta">CONTACTO</a>
-            <a href="#" class="piePagina__cta">TERMINOS Y CONDICIONES</a>
-        </section>
-        <section class="piePagina">
-            <p>&copy; TODOS LOS DERECHOS RESERVADOS 2021</P>
-        </section>
+    <footer class="footer__container">
+        <div class="footer__wrapper">
+            <h1 class="footer__title">SANTUARIO</h1>
+            <nav class="footer__navbar">
+                <ul>
+                    <li><a href="adopcion.html">GUÍAS DE CUIDADO</a></li>
+                    <li><a href="contactanos.html">CONTACTO</a></li>
+                    <li><a href="registrate.html">TERMINOS Y CONDICIONES</a></li>
+                </ul>
+            </nav>
+            <p class="footer__copyright"><i class="fa fa-copyright"></i> TODOS LOS DERECHOS RESERVADOS 2022</P>
+        </div>
     </footer>
 </body>
 </html>
