@@ -7,29 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contactanos.css">
     <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/menu.css">
+    <!-- <link rel="stylesheet" href="css/menu.css"> -->
     <title>Contactanos</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <!--Barra de navegacion-->
-        <nav class="nav">
-            <input type="checkbox" name="" id="nav__checkbox" class="nav__checkbox">
-            <label for="nav__checkbox" class="nav__toggle">
-                <img class="menu" src="https://i.ibb.co/ZKHqmHS/icons8-men-48.png" alt="">
-                <img class="close" src="https://i.ibb.co/ysPF1Q0/icons8-x-50.png" alt="">
+    <header>
+        <nav>
+            <div class="left">
+                <a href="index.html" class="anchor-image"><img src="img/santuario.png"></a>
+                <a href="formulario_adopcion.html" class="banner">TODOS MERECEN UN HOGAR</a>
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fa fa-bars"></i>
             </label>
-            <ul class="nav__menu">
-                <li class="menu__logo"><img src="https://i.ibb.co/YhzjGPx/Santuario-transparente.png" alt=""></li>
-                <li><a href="Quienes_somos.html">¿Quiénes somos?</a></li>
+            <ul class="right">
+                <li><a href="quienes_somos.html">¿Quiénes somos?</a></li>
                 <li><a href="adopcion.html">Adopción</a></li>
-                <li><a href="Informacion.html">Mascotas</a></li>
-                <li><a href="Refugios.html">Refugios</a></li>
+                <li><a href="listado_mascotas.html">Mascotas</a></li>
+                <li><a href="refugios.html">Refugios</a></li>
                 <li><a href="contactanos.html">Contacto</a></li>
-                <li><button class="inicio__sesion">Iniciar Sesion</button></li>
+                <li><a href="iniciar_sesion.html" class="loggin">Iniciar Sesión</a></li>
             </ul>
         </nav>
-    <section>
+    </header>
+    <section class="container">
         <!--Imagen-->
         <img class="img-form" src="https://i.ibb.co/34W5N7V/jumpy-dog-21bdbbccdd9b13b2040a192f8f4c485f-1.png">
         <!--Formulario-->

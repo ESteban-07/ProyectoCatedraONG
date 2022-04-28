@@ -6,25 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refugios</title>
     <link rel="stylesheet" href="css/Refugios.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <script src="js/Refugios.js"></script>
     <header>
         <nav>
-            <img src="img/Santuario.png" class="contenido_header nav__items__foto" onclick="location.href = '../Pantalla/index.html'" alt="">
-            <a href="../Pantalla/index.html" class="contenido_header nav__itemsderecha">TODOS MERECEN UN HOGAR</a>
-            <a href="Quienes_somos.html" class="contenido_header">¿Quiénes somos?</a>
-            <a href="Dar_en_adopcion.html" class="contenido_header">Adopción</a>
-            <a href="#" class="contenido_header">Mascotas</a>
-            <a href="../Refugios/Refugios.html" class="contenido_header">Refugios</a>
-            <a href="contactanos.html" class="contenido_header">Contacto</a>
-            <a href="iniciar_sesion.html" class="contenido_header nav__items">Iniciar Sesión</a>
-        </nav>
-        <section class="contenido_heroe">
-            <div class="texto_heroe">
-                <h1>REFUGIOS</h1>
+            <div class="left">
+                <a href="index.html" class="anchor-image"><img src="img/santuario.png"></a>
+                <a href="formulario_adopcion.html" class="banner">TODOS MERECEN UN HOGAR</a>
             </div>
-        </section>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="right">
+                <li><a href="quienes_somos.html">¿Quiénes somos?</a></li>
+                <li><a href="adopcion.html">Adopción</a></li>
+                <li><a href="listado_mascotas.html">Mascotas</a></li>
+                <li><a href="refugios.html">Refugios</a></li>
+                <li><a href="contactanos.html">Contacto</a></li>
+                <li><a href="iniciar_sesion.html" class="loggin">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="portafolio">
