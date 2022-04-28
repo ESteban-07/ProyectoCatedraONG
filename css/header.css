@@ -74,6 +74,10 @@ nav .loggin:hover {
     color: #FFFBFB;
 }
 
+nav a.banner {
+    font-weight: 700;
+}
+
 nav #click {
     display: none;
 }
@@ -133,3 +137,8 @@ nav .menu-btn i {
     }
 }
 
+@media (max-width: 375px) {
+    nav .left a.banner {
+        display: none;
+    }
+}
