@@ -1,15 +1,26 @@
+/*tipografia roboto mono*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+/*tipografia roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*Fuente Edo SZ*/
+@font-face {
+    font-family: 'Edo SZ';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Edo SZ'), url('../fonts/edosz.woff') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 header {
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
