@@ -17,3 +17,127 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.nombreMascota {
+    font-family: 'Edo SZ';
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.seccion__mascota {
+    /* background-color:aquamarine; */
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.seccion__imagen {
+    position: relative;
+    /* background-color: blueviolet; */
+    flex-basis: 40%;
+    height: 400px;
+}
+
+.imagenMascota {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%,-50%);
+}
+
+.seccion__descripcion {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    /* background-color: chocolate; */
+    flex-basis: 50%;
+    padding: 0 50px;
+}
+
+.datos__mascota {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datos__izquierda,
+.datos__derecha {
+    list-style: none;
+}
+
+.parrafo__descripcion {
+    text-align: justify;
+}
+
+.btn__container {
+    text-align: center;
+}
+
+.btn__submit {
+    color: #FFFFFF;
+    font-family: 'Edo SZ';
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    background:#A13842;
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.seccion__contacto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+}
+
+.contacto__responsable {
+    background-color: #E9F4FD;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 50px;
+}
+
+.contacto__titulo {
+    font-family: 'Edo SZ';
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.contacto__responsable ul {
+    list-style: none;
+}
+
+.contacto__responsable ul li {
+    padding-bottom: 10px;
+}
+
+.contacto__mensaje {
+    background-color: #E0EAFF;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 50px;
+}
+
+.contacto__parrafo {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+.input__mensaje {
+    width: 75%;
+    padding: 40px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    background-color: transparent;
+    text-align: center;
+    margin: 0 auto;
+}
