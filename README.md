@@ -13,7 +13,7 @@ Un sitio web para una ONG que necesite poder dar a conocer mascotas en adopción
 
 
 #### Enlaces importantes
-[Link para el sitio en GitHub Pages](https://alegomez07.github.io/ProyectoCatedraONG/)
+[Link para el sitio en GitHub Pages](https://esteban-07.github.io/ProyectoCatedraONG/)
 
 [WorkFlow en Notion](https://mercury-elf-107.notion.site/Workflow-proyecto-de-c-tedra-3a34acde2e964a62ae32d032fe7cb68b "WorkFlow en Notion")
 
