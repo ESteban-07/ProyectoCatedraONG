@@ -1,6 +1,6 @@
 # ProyectoCatedraONG
 
-> Esta es una versión actualizada de lo que fue el Proyecto de Cátedra para la materia de Lenguajes Interpretados en el Cliente (LIC).
+> **NOTA:** Esta es una versión actualizada de lo que fue el Proyecto de Cátedra para la materia de Lenguajes Interpretados en el Cliente (LIC).
 
 Un sitio web para una ONG que necesite poder dar a conocer mascotas en adopción, ya sean más mascotas rescatadas, mascotas que se encuentren en refugios y personas por alguna razón cualquiera ya no puedan dar los cuidados a su mascota y, así conectar esas mascotas con personas que tengan el deseo de adoptar.
 
