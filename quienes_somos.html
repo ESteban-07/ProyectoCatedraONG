@@ -4,10 +4,9 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="css/basico.css">
-    <link rel="stylesheet" href="css/normalize.css">
 	<title>¿Quiénes Somos?</title>
 	<link rel="stylesheet" href="css/header-footer.css">
+	<link rel="stylesheet" href="css/quienes_somos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -31,46 +30,26 @@
             </ul>
         </nav>
     </header>
-	<section>
-		
-		<div class="tabla">
-			<table>
-				<tr >
-					<td id="info1">
-						
-							<h2>Santuario</h2>
-							<h3>Somos una organización sin fines de lucro donde buscamos el bienestar de perros y gatos en el apartado de una vivienda digna para ellos, junto con vivir en compañia de familias responsables.</h3>
-						
-					</td>
-					<td>
-						<img src="img\dog-1861839_1920.jpg" class="info1_foto">
-					</td>
-				</tr>
-				<tr >
-					<td>
-						<img src="img\dog-2606759_1920.jpg" class="info2_foto">
-					</td>
-					<td id="info2">
-						
-						<h2>400</h2>
-						<h2>Mascotas en un hogar</h2>
-							<h3>Y hasta el día de hoy seguimos comprometidos
-							con cada uno de ellos, para que se establezcan en 
-						un hogar que les brinde todo los cuidados necesarios.</h3>
-					</td>
-				</tr>
-				<tr >
-					<td id="info3">
-						<h2>Nuestras Historias</h2>
-							<h3>Todas las familias conectadas con nuestros amigos peludos terminas en éxito, cada historia es diferente pero cada una tiene un denominador en común, la alegría que generán nuestros peludos en cada hogar</h3>
-					</td>
-					<td>
-						<img src="img\alicia-jones-fnCywjEgp8U-unsplash.jpg" class="info3_foto">
-					</td>
-				</tr>
-			</table>
-		</div>
-	</section>
+	<main>
+		<section class="info-grid">
+			<div class="info info--blue">
+				<h2 class="info__title">Santuario</h2>
+				<p class="info__text">Somos una organización sin fines de lucro donde buscamos el bienestar de perros y gatos en el apartado de una vivienda digna para ellos, junto con vivir en compañia de familias responsables.</p>
+			</div>
+			<img src="img\dog-1861839_1920.jpg" class=" info__img info-santuario__img">
+			<img src="img\dog-2606759_1920.jpg" class="info__img info-mascotas__img">
+			<div class="info info--green">
+				<h2 class="info__title">400 <br> Mascotas en un hogar</h2>
+				<p class="info__text">Y hasta el día de hoy seguimos comprometidos con cada uno de ellos, para que se establezcan en un hogar que les brinde todo los cuidados necesarios.</p>
+			</div>
+			<div class="info info--red">
+				<h2 class="info__title">Nuestras Historias</h2>
+				<p class="info__text">Todas las familias conectadas con nuestros amigos peludos terminas en éxito, cada historia es diferente pero cada una tiene un denominador en común, la alegría que generán nuestros peludos en cada hogar.</p>
+			</div>
+			<img src="img\alicia-jones-fnCywjEgp8U-unsplash.jpg" class="info__img info-historias__img">
+		</section>
+	</main>
+
 	<footer class="footer__container">
         <div class="footer__wrapper">
             <h1 class="footer__title">SANTUARIO</h1>

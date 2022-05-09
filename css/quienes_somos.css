@@ -1,0 +1,127 @@
+/*tipografia roboto mono*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+/*tipografia roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*Fuente Edo SZ*/
+@font-face {
+    font-family: 'Edo SZ';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Edo SZ'), url('../fonts/edosz.woff') format('woff');
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 97px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+}
+
+.info-grid .info {
+    display: grid;
+    align-content: center;
+    padding: 20px 0;
+}
+
+.info__title {
+    text-align: center;
+    font-family: "Edo SZ", normal;
+    font-weight: 400;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+
+.info__text {
+    width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.info-grid .info__img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.info--blue {
+    background-color: #9CCFE1;
+}
+
+.info--green {
+    background-color: #6EB5A5;
+}
+
+.info--red {
+    background-color: #A13842;
+}
+
+@media (max-width: 950px) {
+    .info__title {
+        font-size: 26px;
+    }
+    .info__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 640px) {
+    .info__title {
+        font-size: 22px;
+    }
+    .info__text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 550px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+    }
+    .info__title {
+        font-size: 26px;
+    }
+    .info__text {
+        font-size: 16px;
+    }
+    .info--blue {
+        order: 1;
+    }
+    .info-santuario__img {
+        order: 2;
+    }
+    .info--green {
+        order: 3;
+    }
+    .info-mascotas__img {
+        order: 4;
+    }
+    .info--red {
+        order: 5;
+    }
+    .info-historias__img {
+        order: 6;
+    }
+}
+
+@media (max-width: 350px) {
+    .info__title {
+        font-size: 22px;
+    }
+    .info__text {
+        font-size: 14px;
+    }
+}
